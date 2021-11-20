@@ -1,0 +1,379 @@
+/* Code starts by Bhavik Sojitra */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+
+:root {
+  --purple: #072761;
+  --pink: #4589d6;
+  --gradient: linear-gradient(90deg, var(--purple), var(--pink));
+}
+.headingACSS {
+  font-weight: bold;
+}
+
+.allCSS {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+}
+.headingACSS1 {
+  font-weight: bold;
+}
+.allCSS::selection {
+  background: var(--pink);
+  color: #fff;
+}
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+.allCSS {
+  background: #f9f9f9;
+}
+
+.sectionCSS {
+  min-height: 100vh;
+  padding: 0 9%;
+  padding-top: 7.5rem;
+  padding-bottom: 2rem;
+}
+
+.btnACSS {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 3rem;
+  border-radius: 5rem;
+  background: var(--gradient);
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+}
+
+.btnACSS:hover {
+  transform: scale(1.1);
+}
+
+.headingACSS {
+  text-align: center;
+  background: var(--gradient);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.homeACSS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.homeACSS .image img {
+  width: 34vw;
+  animation: float 3s linear infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(-3.5rem);
+  }
+}
+
+.homeACSS .content h3 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.homeACSS .content h3 span {
+  color: var(--pink);
+  text-transform: uppercase;
+}
+
+.homeACSS .content p {
+  font-size: 1.2rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
+.featuresACSS .box-containerACSS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featuresACSS .box-containerACSS .box {
+  flex: 1 1 30rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  margin: 1.5rem;
+  padding: 3rem 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: 0.2s linear;
+}
+
+.featuresACSS .box-containerACSS .box img {
+  height: 15rem;
+}
+
+.featuresACSS .box-containerACSS .box h3 {
+  font-size: 1.5rem;
+  color: #4589d6;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.featuresACSS .box-containerACSS .box p {
+  font-size: 1rem;
+  color: #666;
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+.aboutACSS {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 3rem;
+}
+
+.aboutACSS .column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.aboutACSS .column .image {
+  flex: 1 1 35rem;
+}
+.techCSS {
+  background-color: #fff;
+}
+.reviewACSS {
+  background-color: #fff;
+}
+
+.aboutACSS .column .image img {
+  width: 80%;
+}
+
+.aboutACSS .column .content {
+  flex: 1 1 20rem;
+}
+
+.aboutACSS .column .content h3 {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.aboutACSS .column .content p {
+  font-size: 1rem;
+  color: #666;
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+.aboutACSS .column .content .buttons a:last-child {
+  margin-left: 2rem;
+}
+
+.headingACSS1 {
+  text-align: center;
+  background: var(--gradient);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+.techACSS {
+  margin: 200px auto;
+  padding-bottom: 3rem;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex: 1 1 30rem;
+}
+
+.col {
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 20%;
+  padding: 5px;
+}
+
+.col img {
+  width: 70%;
+  cursor: pointer;
+  /* filter: grayscale(100%); */
+}
+
+.col img:hover {
+  filter: grayscale(100%);
+  drop-shadow: (8px 8px 10px blue);
+}
+
+.headingACSS2 {
+  text-align: center;
+  background: var(--gradient);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.reviewACSS .box-containerACSS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.reviewACSS .box-containerACSS .box {
+  background: #fff;
+  margin: 1rem;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  flex: 1 1 20rem;
+  border-radius: 0.5rem;
+}
+
+.reviewACSS .box-containerACSS .box .fa-quote-right {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 8rem;
+  color: var(--pink);
+  opacity: 0.3;
+}
+
+.reviewACSS .box-containerACSS .box .userACSS img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 10rem;
+  width: 10rem;
+  margin-top: 2rem;
+}
+
+.reviewACSS .box-containerACSS .box .userACSS h3 {
+  color: var(--pink);
+  font-size: 1.5rem;
+}
+
+.reviewACSS .box-containerACSS .box .userACSS .starsACSS i {
+  color: var(--purple);
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.reviewACSS .box-containerACSS .box .comment {
+  color: #666;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: justify;
+}
+
+/* media queries  */
+
+@media screen and (max-width: 500px) {
+  .col {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  section {
+    padding: 0 3%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .homeACSS {
+    flex-flow: column-reverse;
+  }
+
+  .homeACSS .image img {
+    width: 100%;
+  }
+
+  .homeACSS .content h3 {
+    font-size: 1.5rem;
+  }
+
+  .homeACSS .content p {
+    font-size: 1rem;
+  }
+
+  .aboutACSS {
+    background-position: right;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .aboutACSS .column .content .buttons a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .aboutACSS .column .content .buttons a:last-child {
+    margin: 1rem 0;
+  }
+}
+
+/* Code Ends by Bhavik Sojitra */

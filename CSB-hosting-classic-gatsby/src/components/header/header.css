@@ -1,0 +1,24 @@
+body {
+  font-family: "Montserrat";
+}
+.dropdown {
+  color: black;
+  /* background: none; */
+  margin-top: -3px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+}
+.dropdown:hover {
+  color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .dropdown {
+    margin-top: 2px;
+    margin-left: -6px;
+  }
+}
+
+.HeaderA {
+  z-index: 999;
+}

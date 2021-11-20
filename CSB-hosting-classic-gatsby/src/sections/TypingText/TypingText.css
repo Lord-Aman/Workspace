@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+.containerBCSS {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(255, 255, 255, 0.034);
+  color: #012970;
+}
+.containerBCSS {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -100px;
+}
+.containerBCSS p {
+  font-size: 3rem;
+  padding: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.containerBCSS p span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.containerBCSS p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.containerBCSS p span.cursor.typing {
+  animation: none;
+}
+
+@media screen and (max-width: 600px) {
+  .containerBCSS p {
+    font-size: 3rem;
+  }
+  .containerBCSS p span {
+    margin-top: 20px;
+    font-size: 3rem;
+  }
+  .containerBCSS {
+    margin-top: 20px;
+    margin-bottom: -170px;
+  }
+}
+
+@keyframes blink {
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
