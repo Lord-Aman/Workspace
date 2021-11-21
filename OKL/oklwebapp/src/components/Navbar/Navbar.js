@@ -7,7 +7,9 @@ function Navbar() {
     <header id="header" class="fixed-top">
       <div class="container-fluid d-flex justify-content-between align-items-center">
         <h1 class="logo me-auto me-lg-0">
-          <a href="index.html">Kelly</a>
+          <a href="index.html">
+            <img src={Logo} alt="Okidz Logo" />
+          </a>
         </h1>
         <a href="index.html" class="logo">
           <img src="assets/img/logo.png" alt="" class="img-fluid" />
