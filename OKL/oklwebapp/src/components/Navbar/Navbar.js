@@ -23,19 +23,16 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a href="about.html">About</a>
+              <a href="#">About Us</a>
             </li>
             <li>
-              <a href="resume.html">Resume</a>
+              <a href="#">Gallery</a>
             </li>
             <li>
-              <a href="services.html">Services</a>
+              <a href="#">Creators</a>
             </li>
             <li>
-              <a href="portfolio.html">Portfolio</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
+              <a href="#">Activities for Kids</a>
             </li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>

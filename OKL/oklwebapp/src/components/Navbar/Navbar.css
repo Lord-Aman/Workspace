@@ -65,9 +65,8 @@
   padding: 5px;
   margin: 4px;
   width: 100px;
-  background-color: rgba(255, 102, 0, 0.781);
+  background-color: inherit;
   border-radius: 20px;
-  border: 0.1px solid #fff;
 }
 
 .navbar li a {
@@ -78,7 +77,11 @@
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: rgb(255, 123, 0);
+  color: rgb(0, 0, 0);
+}
+
+.navbar .active {
+  color: rgb(255, 225, 52);
 }
 
 .navbar a,
@@ -93,6 +96,7 @@
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
+  text-decoration: none;
 }
 .navbar a i,
 .navbar a:focus i {
@@ -107,7 +111,7 @@
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #34b7a7;
+  background-color: #fff;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -155,7 +159,7 @@
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: #34b7a7;
+  color: rgb(255, 225, 52);
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -244,7 +248,7 @@
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #34b7a7;
+  color: rgb(255, 225, 52);
 }
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
@@ -273,7 +277,7 @@
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-  color: #34b7a7;
+  color: rgb(255, 225, 52);
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
