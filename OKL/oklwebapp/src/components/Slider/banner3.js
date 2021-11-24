@@ -1,9 +1,10 @@
 import React from "react";
+import BannerImage from "../../assets/Slider/Banner3.jpg";
 
 function banner3() {
   return (
     <div>
-      <h1>This is banner 3</h1>
+      <img src={BannerImage} alt="Banner image" />
     </div>
   );
 }
