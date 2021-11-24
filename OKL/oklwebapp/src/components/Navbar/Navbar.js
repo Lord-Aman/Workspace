@@ -9,7 +9,8 @@ class Navbar extends Component {
 
   render() {
     return (
-      <header id="header" class="fixed-top">
+      // If want to fix the header, add class in header "fixed-top"
+      <header id="header">
         <div class="container-fluid d-flex justify-content-between align-items-center">
           <h1 class="logo me-auto me-lg-0">
             <a href="#">
