@@ -42,16 +42,32 @@ class Navbar extends Component {
           </nav>
 
           <div class="header-social-links">
-            <a href="#" class="twitter">
+            <a
+              href="https://twitter.com/Okidzlabs"
+              target="_blank"
+              class="twitter"
+            >
               <i class="bi bi-twitter" />
             </a>
-            <a href="#" class="facebook">
+            <a
+              href="https://www.facebook.com/okidzlabs/"
+              target="_blank"
+              class="facebook"
+            >
               <i class="bi bi-facebook" />
             </a>
-            <a href="#" class="instagram">
+            <a
+              href="https://www.instagram.com/okidzlabs/"
+              target="_blank"
+              class="instagram"
+            >
               <i class="bi bi-instagram" />
             </a>
-            <a href="#" class="linkedin">
+            <a
+              href="https://www.linkedin.com/company/okidzlabs"
+              target="_blank"
+              class="linkedin"
+            >
               <i class="bi bi-linkedin" />
             </a>
           </div>
