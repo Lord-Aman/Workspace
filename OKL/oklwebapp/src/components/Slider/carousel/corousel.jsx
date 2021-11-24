@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Banner1 from "../banner1";
 import Banner2 from "../banner2";
 import Banner3 from "../banner3";
+
 import "./carousel.css";
 
 const Corousel = () => {
