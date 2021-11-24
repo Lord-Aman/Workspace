@@ -5,10 +5,6 @@ import "./Navbar.css";
 class Navbar extends Component {
   componentDidMount() {
     const hamburger = document.querySelectorAll(".navbar .dropdown > a");
-
-    document.querySelector(".dropdown > a").addEventListener("click", (e) => {
-      console.log("Hamburger Clicked");
-    });
   }
 
   render() {
@@ -16,13 +12,10 @@ class Navbar extends Component {
       <header id="header" class="fixed-top">
         <div class="container-fluid d-flex justify-content-between align-items-center">
           <h1 class="logo me-auto me-lg-0">
-            <a href="index.html">
+            <a href="#">
               <img src={Logo} alt="Okidz Logo" />
             </a>
           </h1>
-          <a href="index.html" class="logo">
-            <img src="assets/img/logo.png" alt="" class="img-fluid" />
-          </a>
 
           <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
