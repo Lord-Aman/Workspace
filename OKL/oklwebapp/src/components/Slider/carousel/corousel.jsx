@@ -19,9 +19,9 @@ const Corousel = () => {
       <Carousel.Item>
         <Banner3 />
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Banner4 />
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 };
