@@ -7,7 +7,7 @@
   }
   .logo{
       display:flex;
-      color:tomato;
+      color:rgb(255, 152, 16);
       align-items:center;
       font-family: cursive;
       width:250px;
@@ -16,8 +16,7 @@
   }
   .logoImage{
       height:58px;
-      color:orange;
-      fill:orange;
+     
   }
 
   .logoHeader{
@@ -59,6 +58,7 @@
       align-items:center;
   }
   .header-social-links{
+      padding-left:12px;
       color:rgba(255, 166, 0, 0.829);
   }
   .header-social-links:hover{
