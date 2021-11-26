@@ -31,7 +31,7 @@ const styles = {
         // backgroundColor:"yellow",
         display:"flex",
         color:"tomato",
-        alignItems:"orange",
+        alignItems:"center",
         fontFamily:"cursive",
         width: "250px",
         marginLeft:"10px",
@@ -55,6 +55,10 @@ const styles = {
         justifyContent:"space-evenly",
         alignItems:"center"
     },
+    navLinks:{
+        textDecoration:"none"
+    },
+
     social:{
         // backgroundColor:"cyan",
         width: "20%"
