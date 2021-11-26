@@ -32,7 +32,7 @@ function Header() {
           </li>
         </ul>
       </div>
-      <div class="social" style={styles.social}></div>
+      <div style={styles.social}></div>
     </div>
   );
 }
@@ -76,9 +76,6 @@ const styles = {
   },
   navLinks: {
     display: "block",
-    "@media only screen and(maxWidth:991px)": {
-      color: "red",
-    },
     textDecoration: "none",
     color: "orange",
     fontSize: "18px",
@@ -87,6 +84,14 @@ const styles = {
   social: {
     backgroundColor: "cyan",
     width: "20%",
+  },
+
+  // Media Queries
+  "@media(minWidth:991px)": {
+    navList: {
+      display: "none",
+      color: "#fff",
+    },
   },
 };
 
