@@ -32,7 +32,40 @@ function Header() {
           </li>
         </ul>
       </div>
-      <div className="social"></div>
+      <div className="header-social">
+      <a
+              href="https://twitter.com/Okidzlabs"
+              target="_blank"
+              class="twitter"
+              className="header-social-links"
+            >
+              <i class="bi bi-twitter" />
+            </a>
+            <a
+              href="https://www.facebook.com/okidzlabs/"
+              target="_blank"
+              class="facebook"
+              className="header-social-links"
+            >
+              <i class="bi bi-facebook" />
+            </a>
+            <a
+              href="https://www.instagram.com/okidzlabs/"
+              target="_blank"
+              class="instagram"
+              className="header-social-links"
+            >
+              <i class="bi bi-instagram" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/okidzlabs"
+              target="_blank"
+              class="linkedin"
+              className="header-social-links"
+            >
+              <i class="bi bi-linkedin" />
+            </a>
+      </div>
     </div>
   );
 }
