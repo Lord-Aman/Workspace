@@ -44,7 +44,16 @@
       background-color:cyan;
       width:20%;
   }
-  .header-social-links {
+
+  .header-social{
+      display:flex;
+      align-items:center;
+  }
+  .header-social-links{
+      color:rgba(255, 166, 0, 0.829);
+  }
+
+  /* .header-social-links {
     padding-right: 15px;
   }
   .header-social-links a {
@@ -57,20 +66,16 @@
   }
   .header-social-links a:hover {
     color: #fcc93e;
-  }
+  } */
 
   /* Media Queries  */
 
   /* Tab View  */
-  @media(max-width:991px){
+  @media(max-width:872px){
       .navContent{
           display:none;
       }
-  }
-
-  /* Mobile View  */
-  @media(max-width:768px){
-      .social{
-          display:none;
-      }
+      .header-social{
+        display:none;
+    }
   }
