@@ -8,9 +8,9 @@ function Header() {
             <div class="navContent" style={styles.navContent}>
                 <ul style={styles.navList}>
                     <li><a style={styles.navLinks} href="#">Home</a></li>
-                    <li><a style={styles.navLinks} href="#">Home</a></li>
-                    <li><a style={styles.navLinks} href="#">Home</a></li>
-                    <li><a style={styles.navLinks} href="#">Home</a></li>
+                    <li><a style={styles.navLinks} href="#">Gallery</a></li>
+                    <li><a style={styles.navLinks} href="#">Meet the Creators</a></li>
+                    <li><a style={styles.navLinks} href="#">Activities for Kids</a></li>
                 </ul>
             </div>
             <div class="social" style={styles.social}></div>
@@ -53,14 +53,24 @@ const styles = {
         display:"flex",
         listStyle:"none",
         justifyContent:"space-evenly",
-        alignItems:"center"
+        marginTop:"16px",
     },
     navLinks:{
-        textDecoration:"none"
+        display:"block",
+        textDecoration:"none",
+        color:"orange",
+        fontSize:"18px",
+        fontWeight:"500",
     },
-
+    '@media(max-width:991px)':{
+        navLinks:{  
+            display:"none",
+        color:"red"
+    }
+    },
+    
     social:{
-        // backgroundColor:"cyan",
+        backgroundColor:"cyan",
         width: "20%"
     }
 }
