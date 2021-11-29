@@ -8,9 +8,9 @@ function Banner2() {
           Giving your kids the best future, Now give them the best past too{" "}
         </h1>
         <p>
-          Get your blood tests delivered at let home collect sample from the
-          victory of the managements that supplies best design system guidelines
-          ever
+          Banner 2, Get your blood tests delivered at let home collect sample
+          from the victory of the managements that supplies best design system
+          guidelines ever
         </p>
       </div>
       <div className="sliderImage">

@@ -1,6 +1,6 @@
 .sliderContainer {
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 90vh;
   background-color: #fff;
 }
@@ -31,6 +31,10 @@
 .sliderImage {
   width: 50%;
   height: 100vh;
+}
+
+.sliderImage img {
+  width: 100%;
 }
 
 @media (max-width: 650px) {
