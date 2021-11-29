@@ -37,7 +37,7 @@
   width: 100%;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 872px) {
   .sliderContainer {
     flex-direction: column;
   }
