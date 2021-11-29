@@ -49,3 +49,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 572px) {
+  .sliderText h1 {
+    font-size: 2.25rem;
+  }
+}
