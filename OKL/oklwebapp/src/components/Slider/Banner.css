@@ -1,0 +1,46 @@
+.sliderContainer {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  background-color: #fff;
+}
+
+.sliderText {
+  background-color: #fff;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sliderText h1 {
+  padding: 3.5rem;
+  font-family: "roboto";
+  color: rgb(1, 1, 59);
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+.sliderText p {
+  padding: 0 3.5rem;
+  font-family: "roboto";
+  color: rgb(12, 0, 53);
+  font-size: 1.2rem;
+}
+
+.sliderImage {
+  width: 50%;
+  height: 100vh;
+}
+
+@media (max-width: 650px) {
+  .sliderContainer {
+    flex-direction: column;
+  }
+  .sliderText {
+    width: 100%;
+  }
+  .sliderImage {
+    width: 100%;
+  }
+}
