@@ -65,3 +65,18 @@
     width: 100%;
   }
 }
+
+@media (max-width: 872px) {
+  .activityContainer {
+    flex-direction: column;
+  }
+  .activity1 {
+    width: 100%;
+  }
+  .activity2 {
+    width: 100%;
+  }
+  .boxContainer {
+    width: 90%;
+  }
+}
