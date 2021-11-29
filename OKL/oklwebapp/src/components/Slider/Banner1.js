@@ -1,6 +1,6 @@
 import React from "react";
 import "./Banner.css";
-function Banner() {
+function Banner1() {
   return (
     <div className="sliderContainer">
       <div className="sliderText">
@@ -23,4 +23,4 @@ function Banner() {
   );
 }
 
-export default Banner;
+export default Banner1;
