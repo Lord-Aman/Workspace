@@ -81,8 +81,22 @@
   }
 }
 
-@media (max-width: 450px) {
-  .activityContainer {
-    margin-top: -10rem;
+@media (max-width: 650px) {
+}
+
+@media (max-width: 360px) {
+  .activity1 {
+    width: 89vw;
+  }
+  .activity2 {
+    width: 89vw;
+  }
+  .boxContainer h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .boxContainer p {
+    padding: 0rem;
+    text-align: center;
   }
 }
