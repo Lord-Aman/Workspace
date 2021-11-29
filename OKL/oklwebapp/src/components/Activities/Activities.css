@@ -12,7 +12,7 @@
   height: 95%;
 }
 .boxContainer {
-  box-shadow: orangered 0px 0px 10px;
+  /* box-shadow: orangered 0px 0px 10px; */
   border: 0.1px solid orangered;
   border-radius: 20px;
   margin: 2.5rem;
