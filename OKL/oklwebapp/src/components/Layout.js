@@ -5,9 +5,8 @@ import Corousel from "./Slider/carousel/corousel";
 function Layout() {
   return (
     <>
-      <Header/>
-      {/* <Navbar />
-      <Corousel /> */}
+      <Header />
+      <Corousel />
     </>
   );
 }
