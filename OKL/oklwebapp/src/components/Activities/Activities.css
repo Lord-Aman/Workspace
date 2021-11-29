@@ -1,6 +1,6 @@
 .activityContainer {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
 }
 .activity1 {
@@ -78,5 +78,11 @@
   }
   .boxContainer {
     width: 90%;
+  }
+}
+
+@media (max-width: 450px) {
+  .activityContainer {
+    margin-top: -10rem;
   }
 }

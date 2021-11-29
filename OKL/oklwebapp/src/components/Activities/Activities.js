@@ -9,7 +9,7 @@ function Activities() {
             src="https://techmaster.netlify.app/static/f-icon3-0c208c1f807c7e75455d316b55c27c2f.svg"
             alt="img"
           />
-          <h1>Heading</h1>
+          <h1>Learning Activities</h1>
           <p>
             Your Website Should Look Good On Any Platform. The Users Of
             Smartphone Are Increasing Exponentially, We Help Improve Your
@@ -24,7 +24,7 @@ function Activities() {
             src="https://techmaster.netlify.app/static/f-icon3-0c208c1f807c7e75455d316b55c27c2f.svg"
             alt="img"
           />
-          <h1>Heading</h1>
+          <h1>Project & Task</h1>
           <p>
             Your Website Should Look Good On Any Platform. The Users Of
             Smartphone Are Increasing Exponentially, We Help Improve Your
