@@ -1,14 +1,13 @@
 import React from "react";
 import "./Activities.css";
+import Football from "../../assets/SVG/football.svg";
+import Gamepad from "../../assets/SVG/gamepad.svg";
 function Activities() {
   return (
     <div className="activityContainer">
       <div className="activity1">
         <div className="boxContainer">
-          <img
-            src="https://techmaster.netlify.app/static/f-icon3-0c208c1f807c7e75455d316b55c27c2f.svg"
-            alt="img"
-          />
+          <img src={Gamepad} alt="img" />
           <h1>Learning Activities</h1>
           <p>
             Your Website Should Look Good On Any Platform. The Users Of
@@ -20,10 +19,7 @@ function Activities() {
       </div>
       <div className="activity2">
         <div className="boxContainer">
-          <img
-            src="https://techmaster.netlify.app/static/f-icon3-0c208c1f807c7e75455d316b55c27c2f.svg"
-            alt="img"
-          />
+          <img src={Football} alt="img" />
           <h1>Project & Task</h1>
           <p>
             Your Website Should Look Good On Any Platform. The Users Of
