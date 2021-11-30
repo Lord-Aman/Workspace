@@ -26,7 +26,7 @@ function footer() {
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
                   <a
-                    href="https://instagram.com/techmastergogo?utm_medium=copy_link"
+                    href="https://www.instagram.com/okidzlabs/"
                     target="_blank"
                   >
                     Instagram
@@ -34,17 +34,14 @@ function footer() {
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a
-                    href="https://www.facebook.com/100523885207584/"
-                    target="_blank"
-                  >
+                  <a href="https://www.facebook.com/okidzlabs/" target="_blank">
                     Facebook
                   </a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
                   <a
-                    href="https://www.linkedin.com/company/tech-master-gogo"
+                    href="https://www.linkedin.com/company/okidzlabs"
                     target="_blank"
                   >
                     LinkedIn
@@ -52,10 +49,7 @@ function footer() {
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a
-                    href="https://twitter.com/TechMasterGogo?s=08"
-                    target="_blank"
-                  >
+                  <a href="https://twitter.com/Okidzlabs" target="_blank">
                     Twitter
                   </a>
                 </li>
@@ -88,21 +82,21 @@ function footer() {
               </p>
               <div class="social-links mt-3">
                 <a
-                  href="https://twitter.com/TechMasterGogo?s=08"
+                  href="https://twitter.com/Okidzlabs"
                   target="_blank"
                   class="twitter"
                 >
                   <i class="fab fa-twitter"></i>
                 </a>
                 <a
-                  href="https://www.facebook.com/100523885207584/"
+                  href="https://www.facebook.com/okidzlabs/"
                   target="_blank"
                   class="facebook"
                 >
                   <i class="fab fa-facebook"></i>
                 </a>
                 <a
-                  href="https://instagram.com/techmastergogo?utm_medium=copy_link"
+                  href="https://www.instagram.com/okidzlabs/"
                   target="_blank"
                   class="instagram"
                 >
@@ -110,7 +104,7 @@ function footer() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/company/tech-master-gogo"
+                  href="https://www.linkedin.com/company/okidzlabs"
                   target="_blank"
                   class="linkedin"
                 >
