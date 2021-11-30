@@ -12,12 +12,12 @@ const Corousel = () => {
       <Carousel.Item>
         <Banner1 />
       </Carousel.Item>
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <Banner2 />
       </Carousel.Item>
       <Carousel.Item>
         <Banner3 />
-      </Carousel.Item> */}
+      </Carousel.Item>
     </Carousel>
   );
 };
