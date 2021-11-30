@@ -1,8 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import "./footer.css";
-import { Link } from "../link";
+import "./Footer.css";
 function footer() {
   return (
     <footer id="footer">
@@ -68,59 +67,37 @@ function footer() {
               <ul>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/webdev">
-                    <Link path="/webdev" label="Web Development"></Link>
-                  </a>
+                  <a href="/webdev">Web Development</a>
                 </li>
 
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/appdev">
-                    <Link path="/appdev" label="App Development"></Link>
-                  </a>
+                  <a href="/appdev">App Development</a>
                 </li>
 
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/socialmedia">
-                    <Link
-                      path="/socialmedia"
-                      label="Social Media Management"
-                    ></Link>
-                  </a>
+                  <a href="/socialmedia">Soc</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/graphicdesign">
-                    <Link
-                      path="/graphicdesign"
-                      label="Graphic & Logo Design"
-                    ></Link>
-                  </a>
+                  <a href="/graphicdesign">Soc</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/contentwriting">
-                    <Link path="/contentwriting" label="Content Writing"></Link>
-                  </a>
+                  <a href="/contentwriting">soc</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/leadgeneration">
-                    <Link path="/leadgeneration" label="Lead Generation"></Link>
-                  </a>
+                  <a href="/leadgeneration"></a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="videoprod">
-                    <Link path="/videoprod" label="Video Production"></Link>
-                  </a>
+                  <a href="videoprod">soc</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="seomanagement">
-                    <Link path="/seomanagement" label="SEO Management"></Link>
-                  </a>
+                  <a href="seomanagement">soc</a>
                 </li>
               </ul>
             </div>

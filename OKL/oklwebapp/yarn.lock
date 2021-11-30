@@ -5465,6 +5465,11 @@ font-awesome@^4.7.0:
   resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
   integrity sha1-j6jPBBGhoxr9B7BtKQK7n8gVoTM=
 
+fontawesome-free@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/fontawesome-free/-/fontawesome-free-1.0.1.tgz#16b704143258a355b63978d38a83d3bbcf9fcd35"
+  integrity sha512-pmjY7xTuHSx4FRSHb9KuKEdJKdpCiGiXFykNPkYdPh5bVHIsQc1d7+YeAl9abIG95SSz2JTq+6+lyhojeEEr1A==
+
 fontawesome@^5.6.3:
   version "5.6.3"
   resolved "https://registry.yarnpkg.com/fontawesome/-/fontawesome-5.6.3.tgz#73f0b865fa2b0b384e69d531c05a02c643b72f95"
@@ -5501,6 +5506,11 @@ form-data@~2.3.2:
     asynckit "^0.4.0"
     combined-stream "^1.0.6"
     mime-types "^2.1.12"
+
+fortawesome@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.yarnpkg.com/fortawesome/-/fortawesome-0.0.1-security.tgz#1c85341f2fa14e1adb28ccfaecfa7ef63796e6fa"
+  integrity sha512-o/pwn9ZSnveFLYP0d5IejSwz0rpGMDQsBaYVvR8WXSvnxILIwh7IUJK0P90QMF4cnIyouVF2BGrz0LEVSyzimA==
 
 forwarded@~0.1.2:
   version "0.1.2"
