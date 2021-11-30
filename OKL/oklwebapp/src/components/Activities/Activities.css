@@ -12,27 +12,26 @@
   height: 95%;
 }
 .boxContainer {
-  /* box-shadow: orangered 0px 0px 10px; */
+  box-shadow: orangered 0px 0px 10px;
   border: 0.1px solid orangered;
   border-radius: 20px;
   margin: 2.5rem;
   width: 40vw;
   padding: 1.2rem;
   padding-bottom: 1.5rem;
-  height: inherit;
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .boxContainer img {
-  width: 75%;
-  height: 65%;
+  width: 60%;
 }
 .boxContainer h1 {
   color: orangered;
   font-family: "roboto";
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 .boxContainer p {
   padding: 0 3.5rem;
@@ -41,17 +40,11 @@
 .boxContainer button {
   background: rgb(255, 255, 255);
   border: 1px solid orangered;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   width: 120px;
   padding: 0.4rem;
   border-radius: 18px;
   box-shadow: orangered 0px 0px 10px;
-  /* text-shadow: rgb(129, 19, 0) 0px 0px 8px; */
-  /* background-image: linear-gradient(
-    to right,
-    rgb(236, 114, 0),
-    rgb(255, 174, 0)
-  ); */
 }
 
 @media (max-width: 600px) {
