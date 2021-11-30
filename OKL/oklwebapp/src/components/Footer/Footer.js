@@ -9,14 +9,14 @@ function footer() {
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>Tech Master</h3>
+              <h3>OKidzLabs</h3>
               <p>
                 203, 2nd Floor, Silver Arc Plaza, <br></br>
-                Janjeerwala Square, Near 56 Dukaan,<br></br>
+                Lorem Ipsum, Indore, India,<br></br>
                 Indore, Madhya Pradesh - 452001 <br></br>
                 <br />
-                <strong>Phone:</strong> +91 99931 81660<br></br>
-                <strong>Email:</strong> info@techmastergogo.com<br></br>
+                <strong>Phone:</strong> +123 456 789<br></br>
+                <strong>Email:</strong> info@okidzlabs.com<br></br>
               </p>
             </div>
 
@@ -67,37 +67,16 @@ function footer() {
               <ul>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/webdev">Web Development</a>
+                  <a href="/webdev">Activities for Kids</a>
                 </li>
 
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/appdev">App Development</a>
-                </li>
-
-                <li>
-                  <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/socialmedia">Soc</a>
+                  <a href="/appdev">Learning Activities</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/graphicdesign">Soc</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/contentwriting">soc</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/leadgeneration"></a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="videoprod">soc</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="seomanagement">soc</a>
+                  <a href="/appdev">Projects & Tasks for Kids</a>
                 </li>
               </ul>
             </div>
@@ -147,7 +126,7 @@ function footer() {
         <div class="copyright">
           &copy; Copyright{" "}
           <strong>
-            <span>Tech Master Gogo</span>
+            <span>OKidzLabs</span>
           </strong>
           . All Rights Reserved
         </div>
