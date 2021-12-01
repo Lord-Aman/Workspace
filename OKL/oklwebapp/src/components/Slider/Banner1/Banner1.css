@@ -5,7 +5,7 @@
 }
 
 .bannerText {
-  background-color: rgba(255, 68, 0, 0.849);
+  background-image: linear-gradient(orangered, rgb(255, 255, 254));
   width: 40%;
   height: 100vh;
   display: flex;
@@ -13,6 +13,7 @@
   align-items: center;
 }
 .bannerText h1 {
+  text-shadow: orangered 0px 0px 5px;
   color: #fff;
   padding: 3.5rem;
   text-align: center;
@@ -44,6 +45,9 @@
   }
   .bannerText h1 {
     font-size: 2.2rem;
+  }
+  .bannerVideo {
+    height: 70vh;
   }
   .bannerVideo video {
     height: 65%;
