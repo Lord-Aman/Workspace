@@ -45,8 +45,7 @@
   .bannerText h1 {
     font-size: 2.2rem;
   }
-  .bannerVIdeo {
-    width: 100%;
-    height: 50vh;
+  .bannerVideo video {
+    height: 65%;
   }
 }
