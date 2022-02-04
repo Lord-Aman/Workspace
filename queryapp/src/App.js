@@ -1,5 +1,5 @@
 import react, { useState } from "react";
-
+import queryString from "query-string";
 function App() {
   const [field, setField] = useState("");
   const [condition, setCondition] = useState("");
@@ -34,8 +34,20 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
-    console.log("queryClicked");
+    // const params = {
+    //   field: field,
+    //   condition: condition,
+    //   criteria: criteria,
+    // };
+    // const esc = encodeURIComponent;
+    // const query = Object.keys(params).map((k) => esc(k) + "=" + esc(params[k]));
+
+    let query = new URLSearchParams();
+    query.append("field", field);
+    query.append("condition", condition);
+    query.append("criteria", criteria);
+
+    console.log(query.toString());
   };
 
   return (
