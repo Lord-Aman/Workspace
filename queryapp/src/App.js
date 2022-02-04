@@ -27,24 +27,14 @@ function App() {
   const criterias = ["Offers", "Performance", "Platform", "Product Feedback"];
 
   const handleChange = (e) => {
-    if (e.target.name == "Field") setField(e.target.value);
-    if (e.target.name == "Condition") setCondition(e.target.value);
-    if (e.target.name == "Criteria") setCriteria(e.target.value);
+    if (e.target.name === "Field") setField(e.target.value);
+    if (e.target.name === "Condition") setCondition(e.target.value);
+    if (e.target.name === "Criteria") setCriteria(e.target.value);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // const data = [
-    //   { field: field },
-    //   { conditon: condition },
-    //   { criteria: criteria },
-    // ];
-    // const query = [];
-    // for (let d in data) {
-    //   query.push(encodeURIComponent(d) + "=" + encodeURIComponent(data[d]));
-    //   return query.join("&");
-    // }
-    // alert(query + "query generated");
+    
     console.log("queryClicked");
   };
 
