@@ -3,7 +3,7 @@ import react, { useState } from "react";
 function App() {
   const [field, setField] = useState("");
   const [condition, setCondition] = useState("");
-  const [offer, setOffer] = useState("");
+  const [criteria, setCriteria] = useState("");
 
   const fields = [
     "Theme",
@@ -26,33 +26,65 @@ function App() {
   ];
   const criterias = ["Offers", "Performance", "Platform", "Product Feedback"];
 
+  const handleChange = (e) => {
+    if (e.target.name == "Field") setField(e.target.value);
+    if (e.target.name == "Condition") setCondition(e.target.value);
+    if (e.target.name == "Criteria") setCriteria(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // const data = [
+    //   { field: field },
+    //   { conditon: condition },
+    //   { criteria: criteria },
+    // ];
+    // const query = [];
+    // for (let d in data) {
+    //   query.push(encodeURIComponent(d) + "=" + encodeURIComponent(data[d]));
+    //   return query.join("&");
+    // }
+    // alert(query + "query generated");
+    console.log("queryClicked");
+  };
+
   return (
     <>
       <div className="home-container">
-        <div className="navbar">Query Apvp</div>
-        <div className="dropdown-container">
-          <div className="dropdown">
-            <select name="field" id="field">
-              {fields.map((val) => (
-                <option value={val}>{val}</option>
-              ))}
-            </select>
+        <h1 className="navbar">Query App</h1>
+        <h1>Field : {field}</h1>
+        <h1>Condition : {condition}</h1>
+        <h1>Criteria : {criteria}</h1>
+
+        <form>
+          <div className="dropdown-container">
+            <div className="dropdown">
+              <select name="Field" id="field" onChange={handleChange}>
+                <option value="">Select Field</option>
+                {fields.map((val) => (
+                  <option value={val}>{val}</option>
+                ))}
+              </select>
+            </div>
+            <div className="dropdown">
+              <select name="Condition" id="condition" onChange={handleChange}>
+                <option value="">Select Conditon</option>
+                {conditions.map((val) => (
+                  <option value={val}>{val}</option>
+                ))}
+              </select>
+            </div>
+            <div className="dropdown">
+              <select name="Criteria" id="criteria" onChange={handleChange}>
+                <option value="">Select Criteria</option>
+                {criterias.map((val) => (
+                  <option value={val}>{val}</option>
+                ))}
+              </select>
+            </div>
           </div>
-          <div className="dropdown">
-            <select name="condition" id="condition">
-              {conditions.map((val) => (
-                <option value={val}>{val}</option>
-              ))}
-            </select>
-          </div>
-          <div className="dropdown">
-            <select name="criteria" id="criteria">
-              {criterias.map((val) => (
-                <option value={val}>{val}</option>
-              ))}
-            </select>
-          </div>
-        </div>
+          <button onClick={handleSubmit}>Generate Query</button>
+        </form>
       </div>
     </>
   );
