@@ -34,13 +34,6 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // const params = {
-    //   field: field,
-    //   condition: condition,
-    //   criteria: criteria,
-    // };
-    // const esc = encodeURIComponent;
-    // const query = Object.keys(params).map((k) => esc(k) + "=" + esc(params[k]));
 
     let query = new URLSearchParams();
     query.append("field", field);
