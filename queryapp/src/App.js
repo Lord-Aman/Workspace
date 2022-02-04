@@ -1,5 +1,5 @@
 import react, { useState } from "react";
-import queryString from "query-string";
+
 function App() {
   const [field, setField] = useState("");
   const [condition, setCondition] = useState("");
