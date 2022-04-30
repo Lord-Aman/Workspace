@@ -1,0 +1,16 @@
+.dropdownContainer{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdownItem{
+    width:200px;
+    margin: 0 25px;
+}
+
+.resetButton{
+    margin: 0 25px;
+}
